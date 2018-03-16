@@ -103,7 +103,7 @@ if (! empty($_POST)) {
 <form method="post" id="form">
 	<p><input name="amount" type="text" placeholder="Amount" required></p>
 	<p><input name="order_id" type="text" placeholder="Order ID" required></p>
-	<p><input name="data_key" id="data_key" type="text" placeholder="Data key" readonly></p>
+	<p><input name="data_key" id="data_key" type="hidden" placeholder="Data key" readonly></p>
 </form>
 
 <input type=button onClick=doMonerisSubmit() value="Pay fine">

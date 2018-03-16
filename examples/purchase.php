@@ -25,7 +25,7 @@ if (! empty($_POST)) {
 		if ($result->was_successful()) {
 		
 			// hooray! 
-			die("Hot diggity dog!");
+			die("No diggity purchase!");
 		
 		} else {
 		

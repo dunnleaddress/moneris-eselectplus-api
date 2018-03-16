@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba23f94c-21f0-451d-b4d9-ecc2433bc988" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/examples/hosted-tokenization.php" afterPath="$PROJECT_DIR$/examples/hosted-tokenization.php" />
-      <change beforePath="$PROJECT_DIR$/examples/purchase.php" afterPath="$PROJECT_DIR$/examples/purchase.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/hosted-tokenization.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/examples/hosted-tokenization.php" afterPath="$PROJECT_DIR$/server/hosted-tokenization.php" />
+      <change beforePath="$PROJECT_DIR$/examples/mpgClasses.php" afterPath="$PROJECT_DIR$/server/mpgClasses.php" />
+      <change beforePath="$PROJECT_DIR$/examples/purchase.php" afterPath="$PROJECT_DIR$/server/purchase.php" />
+      <change beforePath="$PROJECT_DIR$/tests/all.php" afterPath="$PROJECT_DIR$/tests/all.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,21 +20,31 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5555768">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="900">
-          <file leaf-file-name="hosted-tokenization.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/examples/hosted-tokenization.php">
+          <file leaf-file-name="hosted-tokenization.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server/hosted-tokenization.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="431">
-                  <caret line="72" column="61" lean-forward="true" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
+                <state relative-caret-position="5616">
+                  <caret line="108" column="60" lean-forward="false" selection-start-line="108" selection-start-column="60" selection-end-line="108" selection-end-column="60" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="hosted-tokenization.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client/hosted-tokenization.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="mpgClasses.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/examples/mpgClasses.php">
+            <entry file="file://$PROJECT_DIR$/server/mpgClasses.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="18144">
                   <caret line="378" column="14" lean-forward="false" selection-start-line="378" selection-start-column="14" selection-end-line="378" selection-end-column="14" />
@@ -74,7 +87,7 @@
             </entry>
           </file>
           <file leaf-file-name="purchase.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/examples/purchase.php">
+            <entry file="file://$PROJECT_DIR$/server/purchase.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="3264">
                   <caret line="68" column="68" lean-forward="false" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
@@ -87,7 +100,7 @@
             <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="48">
-                  <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+                  <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -108,7 +121,7 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="900">
           <file leaf-file-name="purchase.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/examples/purchase.php">
+            <entry file="file://$PROJECT_DIR$/server/purchase.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1152">
                   <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
@@ -166,8 +179,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
-        <option value="$PROJECT_DIR$/examples/hosted-tokenization.php" />
         <option value="$PROJECT_DIR$/examples/purchase.php" />
+        <option value="$PROJECT_DIR$/examples/hosted-tokenization.php" />
       </list>
     </option>
   </component>
@@ -219,18 +232,12 @@
             <path>
               <item name="moneris-eselectplus-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="moneris-eselectplus-api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="examples" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="client" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="moneris-eselectplus-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="moneris-eselectplus-api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="moneris-eselectplus-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moneris-eselectplus-api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Moneris" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="server" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="moneris-eselectplus-api" type="b2602c69:ProjectViewProjectNode" />
@@ -249,7 +256,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../phantom" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\moneris-eselectplus-api\client" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -278,22 +290,23 @@
       <updated>1521060001211</updated>
       <workItem from="1521060003592" duration="15125000" />
       <workItem from="1521146220334" duration="2274000" />
-      <workItem from="1521213013363" duration="1314000" />
+      <workItem from="1521213013363" duration="3552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18713000" />
+    <option name="totallyTimeSpent" value="20951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-18" y="73" width="6180" height="3401" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13040586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14471059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3769439" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -305,7 +318,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43813387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -322,7 +334,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/examples/hosted-tokenization.php</url>
+          <url>file://$PROJECT_DIR$/server/hosted-tokenization.php</url>
           <line>28</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -331,12 +343,12 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/examples/purchase.php</url>
+          <url>file://$PROJECT_DIR$/server/purchase.php</url>
           <line>31</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/examples/hosted-tokenization.php</url>
+          <url>file://$PROJECT_DIR$/server/hosted-tokenization.php</url>
           <line>19</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -346,7 +358,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/hosted-tokenization.php">
+    <entry file="file://$PROJECT_DIR$/server/hosted-tokenization.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4464">
           <caret line="93" column="91" lean-forward="false" selection-start-line="93" selection-start-column="91" selection-end-line="93" selection-end-column="91" />
@@ -354,7 +366,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/mpgClasses.php">
+    <entry file="file://$PROJECT_DIR$/server/mpgClasses.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18144">
           <caret line="378" column="14" lean-forward="false" selection-start-line="378" selection-start-column="14" selection-end-line="378" selection-end-column="14" />
@@ -405,7 +417,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/purchase.php">
+    <entry file="file://$PROJECT_DIR$/server/purchase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
           <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
@@ -429,7 +441,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/hosted-tokenization.php">
+    <entry file="file://$PROJECT_DIR$/server/hosted-tokenization.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
           <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="36" />
@@ -437,7 +449,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/mpgClasses.php">
+    <entry file="file://$PROJECT_DIR$/server/mpgClasses.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -480,7 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/purchase.php">
+    <entry file="file://$PROJECT_DIR$/server/purchase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
           <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
@@ -544,7 +556,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/mpgClasses.php">
+    <entry file="file://$PROJECT_DIR$/server/mpgClasses.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18144">
           <caret line="378" column="14" lean-forward="false" selection-start-line="378" selection-start-column="14" selection-end-line="378" selection-end-column="14" />
@@ -579,7 +591,7 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
-          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -592,7 +604,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/purchase.php">
+    <entry file="file://$PROJECT_DIR$/server/purchase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3264">
           <caret line="68" column="68" lean-forward="false" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
@@ -600,10 +612,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/hosted-tokenization.php">
+    <entry file="file://$PROJECT_DIR$/server/hosted-tokenization.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="72" column="61" lean-forward="true" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
+        <state relative-caret-position="5616">
+          <caret line="108" column="60" lean-forward="false" selection-start-line="108" selection-start-column="60" selection-end-line="108" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/hosted-tokenization.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

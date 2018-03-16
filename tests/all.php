@@ -2,7 +2,7 @@
 /**
  * To run these tests:
  *
- * - Download simpletest (http://www.simpletest.org), and put it alongside the examples, lib, and tests folders.
+ * - Download simpletest (http://www.simpletest.org), and put it alongside the server, lib, and tests folders.
  * - Pop open a terminal
  * - Navigate to the tests folder
  * - run: php all_tests.php (or php-mamp all_tests.php if you're using MAMP)

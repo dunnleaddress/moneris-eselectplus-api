@@ -2,3 +2,6 @@
 .tm_properties
 simpletest
 vendor
+.idea/
+.idea/copyright/
+.idea/workspace.xml

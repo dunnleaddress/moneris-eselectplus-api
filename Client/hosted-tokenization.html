@@ -15,31 +15,34 @@
             <a href="https://docs.angularjs.org/api">AngularJS API Docsa</a>
         </h1>
 
-        <div id="cardIds">
-            <h2>
-                <a href="https://developer.moneris.com/More/Testing/E-Fraud%20Simulator">Test Cards:</a>
-            </h2>
-
-            <ul>
-                <li>MasterCard 5454545442424242</li>
-                <li>Visa 4242424254545454</li>
-                <li>Amex 373269005095005</li>
-                <li>Diners 36462462742008</li>
-                <li>VCD 4242424242424242</li>
-            </ul>
-        </div>
-
         <div class="col-sm-9">
+            <div id="cardIds">
+                <h2>
+                    <a href="https://developer.moneris.com/More/Testing/E-Fraud%20Simulator">Test Cards:</a>
+                </h2>
 
-            <!--<div id=monerisResponse></div>-->
-
-            <iframe id=monerisFrame
-                    src="https://esqa.moneris.com/HPPtoken/index.php?id=ht1HBCEU3C9U8KT&css_body=background:white;&css_textbox=border-width:2px;&css_textbox_pan=width:140px;&display_labels=1&enable_exp=1&css_textbox_exp=width:40px;&enable_cvd=1&css_textbox_cvd=width:40px"
-                    frameborder='0' width="200" height="120"></iframe>
-
-            <div ng-include src="'client/partials/response.html'"></div>
-
+                <ul>
+                    <li>MasterCard 5454545442424242</li>
+                    <li>Visa 4242424254545454</li>
+                    <li>Amex 373269005095005</li>
+                    <li>Diners 36462462742008</li>
+                    <li>VCD 4242424242424242</li>
+                </ul>
+            </div>
         </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <!--<div id=monerisResponse></div>-->
+
+                <iframe id=monerisFrame
+                        src="https://esqa.moneris.com/HPPtoken/index.php?id=ht1HBCEU3C9U8KT&css_body=background:white;&css_textbox=border-width:2px;&css_textbox_pan=width:140px;&display_labels=1&enable_exp=1&css_textbox_exp=width:40px;&enable_cvd=1&css_textbox_cvd=width:40px"
+                        frameborder='0' width="200" height="140"></iframe>
+
+                <div ng-include src="'client/partials/response.html'"></div>
+            </div>
+        </div>
+
     </div>
 </div>
 <script type="text/javascript" src="client/js/moneris.token.js"></script>

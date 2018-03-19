@@ -13,7 +13,7 @@ var respMsg = function (e) {
 
     /*document.getElementById("monerisResponse").innerHTML = e.origin + " SENT " + " - " + respData.responseCode + "-" + respData.dataKey + "-" + respData.errorMessage;*/
 
-    if (respData.dataKey) {
+    if (respData.dataKey) {alert(respData.dataKey);
         document.getElementById('data_key').value = respData.dataKey;
         document.getElementById('form').submit();
     }

@@ -55,19 +55,21 @@ class TestBasic extends UnitTestCase
 	
 	public function testPurchaseEFraud()
 	{
-		$gateway = $this->_gateway(array('store_id' => 'store5', 'require_avs' => true));
+		$gateway = $this->_gateway(array('store_id' => 'store1', 'require_avs' => true));
 		
 		$time = strtotime('+2 months');
 		$params = array(
 			'order_id' => uniqid('testing', true),
 			'amount' => '10.30',
 			'cc_number' => '4242424242424242',
-			'expiry_month' => date('m', $time),
-			'expiry_year' => date('y', $time),
+			/*'expiry_month' => date('m', $time),
+			'expiry_year' => date('y', $time),*/
+            'expiry_month' => '08',
+            'expiry_year' => '18',
 			'avs_street_number' => '201',
 			'avs_street_name' => 'Michigan Ave',
 			'avs_zipcode' => 'M1M1M1',
-			'cvd' => '198'
+			'cvd' => '123'
 		);
 		
 		$result = $gateway->purchase($params);
